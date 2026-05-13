@@ -202,4 +202,4 @@ Frontend runs on: `http://localhost:3000`
 
 ## 👨‍💻 Developer
 
-Built with ❤️ — AMC Pro Management System
+Built with ❤️ — AMC Pro Management System"# AMC Project" 
