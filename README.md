@@ -148,7 +148,7 @@ Start the backend server:
 npm run dev
 ```
 
-Backend runs on: `http://localhost:5000`
+Backend runs on: `${process.env.REACT_APP_API_URL}`
 
 ### 3. Frontend Setup
 
@@ -160,7 +160,7 @@ npm install
 Create a `.env` file inside `frontend/`:
 
 ```env
-REACT_APP_API_URL=http://localhost:5000
+REACT_APP_API_URL=${process.env.REACT_APP_API_URL}
 ```
 
 Start the frontend:
@@ -202,4 +202,4 @@ Frontend runs on: `http://localhost:3000`
 
 ## 👨‍💻 Developer
 
-Built with ❤️ — AMC Pro Management System"# AMC Project" 
+Built with ❤️ — AMC Pro Management System
